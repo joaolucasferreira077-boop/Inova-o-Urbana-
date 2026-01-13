@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    line-height: 1.6;
+    /* Melhora a leitura do texto */
+}
+
+.banner {
+    position: relative;
+    display: inline block;
+}
+
+
+.texto-central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Centraliza o texto exatamente no meio da imagem */
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.img-fluid,
+.todos {
+    width: 90%;
+    /* Força a imagem a ocupar 100% da largura do container */
+    height: auto;
+    /* Mantém a proporção (não deixa a imagem "achatada") */
+    display: block;
+    margin: 40px 0;
+    /* Espaçamento vertical generoso entre imagem e texto */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Um toque de profundidade */
+}
+
+.asfaltointeligente {
+    margin-bottom: 20px;
+}
+
+.azul {
+    color: blue;
+
+}
+
+.linha {
+    margin-bottom: 40px;
+
+
+}
+
+.linha {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 50px 0;
+    /* Espaçamento em cima e embaixo */
+    width: 100%;
+}
+
+.Titulos {
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.minha-lista {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.UFC {
+    margin-top: 60px;
+    text-align: center;
+    /* Geralmente logotipos no rodapé são centralizados */
+}
+
+
+.container {
+    max-width: 100%;
+    /* Permite que o conteúdo use a largura total */
+    width: 90%;
+    /* Deixa apenas uma pequena margem de segurança nas laterais */
+    max-width: 1200px;
+    /* Limite máximo para não quebrar em monitores ultra-wide */
+    margin: 0 auto;
+    padding: 0;
+    /* Zeramos o padding para a imagem encostar se necessário */
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+
+.faixa-ufc {
+    width: 100%;
+    height: 115px;
+
+    background-image: url('img/FOTOUFC.png');
+
+    /* 1. Impede a repetição */
+    background-repeat: no-repeat;
+
+    /* 2. Centraliza a frase na tela */
+    background-position: center;
+
+    /* 3. Faz a imagem esticar para ocupar a largura toda sem repetir */
+    background-size: cover;
+
+    /* Opcional: Se a frase ficar cortada com 'cover', use '100% 100%' 
+       mas isso pode achatar um pouco as letras */
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    /* Evita barra de rolagem horizontal se algo vazar */
+}
+
+p {
+    font-size: 1.2rem;
+    /* Aumentamos um pouco a fonte para acompanhar o layout largo */
+    max-width: 900px;
+    /* O texto não deve ser largo demais para não cansar a vista */
+
+    margin-bottom: 10px;
+}
+
+.banner img {
+    width: 100%;
+    height: 60vh;
+    /* Faz o banner ocupar 60% da altura da tela */
+    object-fit: cover;
+}
+
+.grau {
+    width: 45%;
+    /* Ajustado para caberem duas na mesma linha */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Removido o display: block para não quebrar a linha */
+}
+
+.container-flex {
+    display: flex;
+    /* Ativa o alinhamento lado a lado */
+    justify-content: ;
+    /* Centraliza as imagens horizontalmente */
+    gap: 20px;
+    /* Cria o espaço entre elas sem erro */
+    padding: 40px 0;
+    /* Espaço em cima e embaixo do grupo */
+}
